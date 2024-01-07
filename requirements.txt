@@ -1,0 +1,2 @@
+pdfplumber==0.10.3
+tkinterdnd2==0.3.0
