@@ -1,5 +1,16 @@
 # File Processor and RegexApp Documentation
 
+## Table of Contents
+- [Overview](#overview)
+- [Classes](#classes)
+  - [FileProcessorApp](#fileprocessorapp)
+  - [RegexApp](#regexapp)
+- [GUI Components](#gui-components)
+- [Workflow](#workflow)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Notes](#notes)
+
 ## Overview
 
 This Python script implements a graphical user interface (GUI) application using the Tkinter library. The application allows users to process Word/PDF files, view the processed content, and perform regular expression pattern matching.
