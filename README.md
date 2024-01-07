@@ -86,15 +86,15 @@ The `RegexApp` class manages the regular expression pattern matching functionali
 
 ### 1. FileProcessorApp - Drag and Drop
 
-![Drag and Drop](images/DragAndDrop.png)
+![Drag and Drop](DragAndDrop.png)
 
 ### 2. RegexApp - Initial Screen
 
-![Initial Screen](images/InitialScreen.png)
+![Initial Screen](InitialScreen.png)
 
 ### 3. RegexApp - Used Regex in Action
 
-![Used Regex](images/UsedRegex.png)
+![Used Regex](UsedRegex.png)
 
 ## Usage
 
