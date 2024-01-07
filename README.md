@@ -9,6 +9,7 @@
 - [Workflow](#workflow)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
+- [How to Run](#how-to-run)
 - [Notes](#notes)
 
 ## Overview
@@ -86,11 +87,31 @@ The `RegexApp` class manages the regular expression pattern matching functionali
 3. View processed content and switch to the RegexApp for pattern matching.
 4. Enter regex patterns in the RegexApp to search for matches.
 
+
 ## Dependencies
 
 - Tkinter: Python's standard GUI library.
 - tkinterdnd2: A Tkinter extension for drag-and-drop functionality.
 - pdfplumber: A library for extracting text content from PDF files.
+
+
+## How to Run
+
+Follow these steps to run the File Processor and RegexApp:
+
+1. Install dependencies using pip:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Run the main script:
+
+    ```bash
+    python main.py
+    ```
+
+Ensure that you have Python installed on your machine.
 
 ## Notes
 
