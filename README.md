@@ -7,6 +7,7 @@
   - [RegexApp](#regexapp)
 - [GUI Components](#gui-components)
 - [Workflow](#workflow)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [How to Run](#how-to-run)
@@ -66,6 +67,7 @@ The `RegexApp` class manages the regular expression pattern matching functionali
 - Edit button to toggle between view and edit modes
 - Text widget for displaying search results
 
+
 ## Workflow
 
 1. User opens the application.
@@ -79,6 +81,20 @@ The `RegexApp` class manages the regular expression pattern matching functionali
    - Search results, total words, matched words, and most frequent words are displayed.
    - User can toggle between view and edit modes.
 4. User can switch back and forth between FileProcessorApp and RegexApp as needed.
+
+## Screenshots
+
+### 1. FileProcessorApp - Drag and Drop
+
+![Drag and Drop](images/DragAndDrop.png)
+
+### 2. RegexApp - Initial Screen
+
+![Initial Screen](images/InitialScreen.png)
+
+### 3. RegexApp - Used Regex in Action
+
+![Used Regex](images/UsedRegex.png)
 
 ## Usage
 
