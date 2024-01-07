@@ -39,10 +39,6 @@ class FileProcessorApp:
         # Show the current window
         self.root.deiconify()
 
-    def switch_to_file_processor(self):
-        # Switch to the FileProcessorApp
-        self.hide()
-        file_processor_app.show()
 
     # Modify the switch_to_regex_app method in FileProcessorApp
     def switch_to_regex_app(self):
@@ -53,7 +49,7 @@ class FileProcessorApp:
         regex_root = tk.Tk()
         global regex_app  # Make regex_app a global variable to access it later
         regex_app = RegexApp(regex_root)
-        regex_root.protocol("WM_DELETE_WINDOW", self.switch_to_file_processor)  # Handle window close event
+        regex_root.protocol("WM_DELETE_WINDOW")  # Handle window close event
         regex_root.mainloop()
 
     def handle_drop(self, event):
