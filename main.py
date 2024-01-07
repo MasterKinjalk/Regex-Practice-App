@@ -11,7 +11,7 @@ from collections import Counter
 class FileProcessorApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Drag and Drop or Select File")
+        self.root.title("Regex App")
         self.root.geometry("800x600")
         self.root.configure(bg='#f5f5f5')  # Set background color
 
@@ -67,7 +67,7 @@ class FileProcessorApp:
             self.process_file(file_path)
 
     def enable_switch_button(self):
-        self.switch_button = tk.Button(root, text="Switch to RegexApp", command=self.switch_to_regex_app)
+        self.switch_button = tk.Button(root, text="Go to Regex APP", command=self.switch_to_regex_app)
         self.switch_button.pack(pady=10)
         # Enable the switch button
         self.switch_button.config(state=tk.NORMAL)
